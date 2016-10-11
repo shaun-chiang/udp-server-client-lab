@@ -7,7 +7,7 @@ import time
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Bind the socket to the port
-server_address = ('10.0.0.1', 5555)
+server_address = ('10.0.0.2', 5555)
 print >> sys.stderr, 'starting up on %s port %s' % server_address
 sock.bind(server_address)
 received_data = []
